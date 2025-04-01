@@ -154,7 +154,7 @@ return a;
 
 template<fp T>
 
-complex<T>& complex<T>::operator+=(const T& other) {
+complex<T>& complex<T>::operator*=(const T& other) {
 real_part *= other;
 imaginary_part *= other;
 return *this;
